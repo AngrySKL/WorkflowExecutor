@@ -1,0 +1,414 @@
+2023-08-20 15:49:56.401 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 15:49:56.416 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 15:49:56.418 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 15:49:56.419 +08:00 [INF] Hosting environment: Development
+2023-08-20 15:49:56.420 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 15:50:09.699 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 15:50:09.718 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 15:50:09.720 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 15:50:09.722 +08:00 [INF] Hosting environment: Development
+2023-08-20 15:50:09.723 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 15:50:11.033 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger - -
+2023-08-20 15:50:11.071 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger - - - 301 0 - 40.7396ms
+2023-08-20 15:50:11.089 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 15:50:11.221 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 131.5018ms
+2023-08-20 15:50:11.227 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/swagger-ui.css - -
+2023-08-20 15:50:11.227 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/swagger-ui-bundle.js - -
+2023-08-20 15:50:11.227 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 15:50:11.227 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/swagger-ui-standalone-preset.js - -
+2023-08-20 15:50:11.243 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 16.3338ms
+2023-08-20 15:50:11.300 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-20 15:50:11.300 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-08-20 15:50:11.303 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/swagger-ui.css - - - 200 144929 text/css 75.9992ms
+2023-08-20 15:50:11.303 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-08-20 15:50:11.305 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 15:50:11.305 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 77.5653ms
+2023-08-20 15:50:11.307 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 80.0564ms
+2023-08-20 15:50:11.441 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 136.5350ms
+2023-08-20 15:50:11.475 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 15:50:11.490 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/favicon-32x32.png - -
+2023-08-20 15:50:11.492 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-20 15:50:11.493 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/favicon-32x32.png - - - 200 628 image/png 3.2831ms
+2023-08-20 15:50:11.601 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.9220ms
+2023-08-20 15:50:31.869 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 15:50:31.921 +08:00 [INF] Executing endpoint 'WorkflowExecutor.Api.Endpoints.Workflow.Start.HandleAsync (WorkflowExecutor.Api)'
+2023-08-20 15:50:31.970 +08:00 [INF] Route matched with {action = "Handle", controller = "Start"}. Executing controller action with signature System.Threading.Tasks.Task`1[WorkflowExecutor.Api.Endpoints.Workflow.StartResponse] HandleAsync(WorkflowExecutor.Api.Endpoints.Workflow.StartRequest, System.Threading.CancellationToken) on controller WorkflowExecutor.Api.Endpoints.Workflow.Start (WorkflowExecutor.Api).
+2023-08-20 15:57:54.431 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 15:57:54.451 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 15:57:54.454 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 15:57:54.455 +08:00 [INF] Hosting environment: Development
+2023-08-20 15:57:54.456 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 15:57:55.145 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 15:57:55.307 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 164.6551ms
+2023-08-20 15:57:55.319 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 15:57:55.324 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 4.9004ms
+2023-08-20 15:57:55.331 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 15:57:55.384 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.4254ms
+2023-08-20 15:57:55.510 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 15:57:55.653 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.4904ms
+2023-08-20 15:58:18.916 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 15:58:18.928 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 12.7360ms
+2023-08-20 15:58:18.947 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/favicon.ico - -
+2023-08-20 15:58:18.976 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/favicon.ico - - - 404 0 - 28.2297ms
+2023-08-20 15:58:50.310 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 15:58:50.324 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 15:58:50.326 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 15:58:50.327 +08:00 [INF] Hosting environment: Development
+2023-08-20 15:58:50.328 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 15:58:51.330 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 15:58:51.532 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 202.6778ms
+2023-08-20 15:58:51.543 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 15:58:51.548 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 4.7636ms
+2023-08-20 15:58:51.554 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 15:58:51.600 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.1067ms
+2023-08-20 15:58:51.643 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 15:58:51.839 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 196.1591ms
+2023-08-20 15:59:03.920 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 15:59:03.938 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19 - 404 0 - 17.5949ms
+2023-08-20 15:59:05.634 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 15:59:05.639 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19 - 404 0 - 4.6382ms
+2023-08-20 15:59:06.116 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 15:59:06.122 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19 - 404 0 - 5.5747ms
+2023-08-20 15:59:06.289 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 15:59:06.293 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19 - 404 0 - 4.7323ms
+2023-08-20 15:59:06.471 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 15:59:06.474 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19 - 404 0 - 3.0037ms
+2023-08-20 15:59:09.244 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 15:59:09.249 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19 - 404 0 - 4.3652ms
+2023-08-20 16:02:17.540 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 16:02:17.665 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 16:02:17.667 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 16:02:17.669 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 16:02:17.669 +08:00 [INF] Hosting environment: Development
+2023-08-20 16:02:17.670 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 16:02:18.214 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 16:02:18.358 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 145.1357ms
+2023-08-20 16:02:18.371 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 16:02:18.376 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 4.5495ms
+2023-08-20 16:02:18.381 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 16:02:18.432 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.2867ms
+2023-08-20 16:02:18.487 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 16:02:18.504 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 17.0349ms
+2023-08-20 16:03:50.910 +08:00 [INF] Registered 1 endpoints in 47 milliseconds.
+2023-08-20 16:03:50.992 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 16:03:50.993 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 16:03:50.994 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 16:03:50.995 +08:00 [INF] Hosting environment: Development
+2023-08-20 16:03:50.996 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 16:03:51.745 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 16:03:51.869 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 124.8874ms
+2023-08-20 16:03:51.877 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 16:03:51.879 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 16:03:51.883 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 4.7937ms
+2023-08-20 16:03:51.911 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.3247ms
+2023-08-20 16:03:51.943 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 16:03:51.948 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 16:03:52.149 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 205.8120ms
+2023-08-20 16:04:44.623 +08:00 [INF] Registered 1 endpoints in 37 milliseconds.
+2023-08-20 16:04:44.706 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 16:04:44.708 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 16:04:44.709 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 16:04:44.710 +08:00 [INF] Hosting environment: Development
+2023-08-20 16:04:44.711 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 16:04:45.585 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 16:04:45.698 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 114.0353ms
+2023-08-20 16:04:45.705 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 16:04:45.706 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 16:04:45.709 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 3.8077ms
+2023-08-20 16:04:45.738 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.9748ms
+2023-08-20 16:04:45.769 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 16:04:45.774 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 16:04:45.936 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 166.5791ms
+2023-08-20 16:05:03.765 +08:00 [INF] Registered 1 endpoints in 34 milliseconds.
+2023-08-20 16:05:03.848 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 16:05:03.849 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 16:05:03.850 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 16:05:03.851 +08:00 [INF] Hosting environment: Development
+2023-08-20 16:05:03.852 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 16:05:04.408 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 16:05:04.507 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 100.7651ms
+2023-08-20 16:05:04.516 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 16:05:04.516 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 16:05:04.532 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 4.6016ms
+2023-08-20 16:05:04.560 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.4237ms
+2023-08-20 16:05:04.591 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 16:05:04.596 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 16:05:04.740 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.6654ms
+2023-08-20 16:05:42.828 +08:00 [INF] Registered 1 endpoints in 34 milliseconds.
+2023-08-20 16:05:42.909 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 16:05:42.910 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 16:05:42.911 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 16:05:42.912 +08:00 [INF] Hosting environment: Development
+2023-08-20 16:05:42.913 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 16:05:43.952 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 16:05:44.070 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 118.6437ms
+2023-08-20 16:05:44.078 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 16:05:44.078 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 16:05:44.085 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 6.7366ms
+2023-08-20 16:05:44.106 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.9801ms
+2023-08-20 16:05:44.141 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 16:05:44.145 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 16:05:44.294 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 152.7778ms
+2023-08-20 16:05:57.881 +08:00 [INF] Registered 1 endpoints in 37 milliseconds.
+2023-08-20 16:05:57.962 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 16:05:57.964 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 16:05:57.965 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 16:05:57.966 +08:00 [INF] Hosting environment: Development
+2023-08-20 16:05:57.967 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 16:05:58.880 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 16:05:58.990 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 111.6190ms
+2023-08-20 16:05:58.998 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 16:05:58.999 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 16:05:59.008 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 9.0942ms
+2023-08-20 16:05:59.029 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.6455ms
+2023-08-20 16:05:59.061 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 16:05:59.065 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 16:05:59.226 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.5042ms
+2023-08-20 16:06:13.813 +08:00 [INF] Registered 1 endpoints in 36 milliseconds.
+2023-08-20 16:06:13.890 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 16:06:13.892 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 16:06:13.897 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 16:06:13.898 +08:00 [INF] Hosting environment: Development
+2023-08-20 16:06:13.899 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 16:06:15.057 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 16:06:15.161 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 104.7688ms
+2023-08-20 16:06:15.167 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 16:06:15.168 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 16:06:15.177 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 7.9721ms
+2023-08-20 16:06:15.198 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.4902ms
+2023-08-20 16:06:15.232 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 16:06:15.237 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 16:06:15.390 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 157.2954ms
+2023-08-20 16:06:21.480 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 16:06:21.526 +08:00 [INF] Executing endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 16:47:33.843 +08:00 [INF] Registered 1 endpoints in 43 milliseconds.
+2023-08-20 16:47:33.929 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 16:47:33.940 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 16:47:33.941 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 16:47:33.942 +08:00 [INF] Hosting environment: Development
+2023-08-20 16:47:33.943 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 16:47:34.452 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 16:47:34.602 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 151.4397ms
+2023-08-20 16:47:34.616 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 16:47:34.616 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 16:47:34.625 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 9.3334ms
+2023-08-20 16:47:34.658 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.0731ms
+2023-08-20 16:47:34.692 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 16:47:34.697 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 16:47:34.849 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 156.8898ms
+2023-08-20 16:47:48.739 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 20
+2023-08-20 16:47:48.782 +08:00 [INF] Executing endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 16:48:00.367 +08:00 [INF] Executed endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 16:48:00.370 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'MediatR.IRequestHandler`2[WorkflowExecutor.Core.Commands.StartWorkflowCommand,Ardalis.Result.Result]' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at WorkflowExecutor.Api.Endpoints.Workflow.Start.HandleAsync(StartWorkflowRequest request, CancellationToken cancellationToken) in D:\git\WorkflowExecutor\src\WorkflowExecutor.Api\Endpoints\Workflow\Start.cs:line 28
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-20 16:48:00.400 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 20 - 500 - text/plain;+charset=utf-8 11661.7229ms
+2023-08-20 16:55:26.409 +08:00 [INF] Registered 1 endpoints in 72 milliseconds.
+2023-08-20 16:55:26.489 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 16:55:26.491 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 16:55:26.492 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 16:55:26.493 +08:00 [INF] Hosting environment: Development
+2023-08-20 16:55:26.493 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 16:55:27.689 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 16:55:27.912 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 223.6538ms
+2023-08-20 16:55:27.922 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 16:55:27.922 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 16:55:27.927 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 5.0365ms
+2023-08-20 16:55:27.956 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.4464ms
+2023-08-20 16:55:28.011 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 16:55:28.016 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 16:55:28.183 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 172.0389ms
+2023-08-20 16:55:33.587 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 16:55:33.631 +08:00 [INF] Executing endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 16:55:55.426 +08:00 [INF] Registered 1 endpoints in 41 milliseconds.
+2023-08-20 16:55:55.516 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 16:55:55.518 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 16:55:55.519 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 16:55:55.520 +08:00 [INF] Hosting environment: Development
+2023-08-20 16:55:55.521 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 16:55:56.780 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 16:55:56.952 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 173.1655ms
+2023-08-20 16:55:56.963 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 16:55:56.968 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 5.6135ms
+2023-08-20 16:55:56.976 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 16:55:57.022 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.7923ms
+2023-08-20 16:55:57.084 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 16:55:57.105 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 16:55:57.321 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 236.8423ms
+2023-08-20 16:56:03.396 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 16:56:03.441 +08:00 [INF] Executing endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:06:44.968 +08:00 [INF] Registered 1 endpoints in 40 milliseconds.
+2023-08-20 17:06:45.045 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 17:06:45.053 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 17:06:45.054 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 17:06:45.055 +08:00 [INF] Hosting environment: Development
+2023-08-20 17:06:45.056 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 17:06:46.259 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 17:06:46.392 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 134.2731ms
+2023-08-20 17:06:46.401 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 17:06:46.401 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 17:06:46.412 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 11.2748ms
+2023-08-20 17:06:46.438 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.7629ms
+2023-08-20 17:06:46.480 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 17:06:46.485 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 17:06:46.629 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 149.3847ms
+2023-08-20 17:06:52.582 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 17:06:52.631 +08:00 [INF] Executing endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:07:02.230 +08:00 [INF] Registered 1 endpoints in 37 milliseconds.
+2023-08-20 17:07:02.309 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 17:07:02.311 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 17:07:02.312 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 17:07:02.313 +08:00 [INF] Hosting environment: Development
+2023-08-20 17:07:02.314 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 17:07:03.015 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 17:07:03.162 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 147.9889ms
+2023-08-20 17:07:03.170 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 17:07:03.171 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 17:07:03.180 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 9.9919ms
+2023-08-20 17:07:03.210 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.7148ms
+2023-08-20 17:07:03.262 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 17:07:03.271 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 17:07:03.562 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 299.5844ms
+2023-08-20 17:07:09.496 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 17:07:09.542 +08:00 [INF] Executing endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:25:18.015 +08:00 [INF] Registered 1 endpoints in 77 milliseconds.
+2023-08-20 17:25:18.092 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 17:25:18.094 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 17:25:18.095 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 17:25:18.095 +08:00 [INF] Hosting environment: Development
+2023-08-20 17:25:18.096 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 17:25:18.502 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 17:25:18.639 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 138.2069ms
+2023-08-20 17:25:18.648 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 17:25:18.648 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 17:25:18.652 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 4.2629ms
+2023-08-20 17:25:18.676 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.9270ms
+2023-08-20 17:25:18.713 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 17:25:18.717 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 17:25:18.867 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.8014ms
+2023-08-20 17:25:24.959 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 17:25:25.000 +08:00 [INF] Executing endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:25:31.710 +08:00 [INF] Executed endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:25:31.715 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19 - 204 - - 6756.3637ms
+2023-08-20 17:27:45.994 +08:00 [INF] Registered 1 endpoints in 654 milliseconds.
+2023-08-20 17:27:46.103 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 17:27:46.105 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 17:27:46.106 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 17:27:46.107 +08:00 [INF] Hosting environment: Development
+2023-08-20 17:27:46.108 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 17:27:46.806 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 17:27:46.936 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 131.8417ms
+2023-08-20 17:27:46.944 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 17:27:46.945 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 17:27:46.948 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 4.0377ms
+2023-08-20 17:27:46.977 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.5092ms
+2023-08-20 17:27:47.021 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 17:27:47.025 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 17:27:47.193 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 172.1851ms
+2023-08-20 17:27:52.569 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 17:27:52.612 +08:00 [INF] Executing endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:27:52.716 +08:00 [INF] Executed endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:27:52.719 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19 - 204 - - 150.0869ms
+2023-08-20 17:30:17.935 +08:00 [INF] Registered 1 endpoints in 39 milliseconds.
+2023-08-20 17:30:18.068 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 17:30:18.069 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 17:30:18.070 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 17:30:18.071 +08:00 [INF] Hosting environment: Development
+2023-08-20 17:30:18.072 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 17:30:18.900 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 17:30:19.059 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 159.9877ms
+2023-08-20 17:30:19.073 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 17:30:19.079 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 6.2858ms
+2023-08-20 17:30:19.080 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 17:30:19.145 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.7245ms
+2023-08-20 17:30:19.188 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 17:30:19.193 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 17:30:19.353 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 164.6004ms
+2023-08-20 17:30:23.518 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 17:30:23.530 +08:00 [INF] Executing endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:30:23.561 +08:00 [INF] Executed endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:30:23.562 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19 - 204 - - 44.1812ms
+2023-08-20 17:33:06.904 +08:00 [INF] Registered 1 endpoints in 45 milliseconds.
+2023-08-20 17:33:07.026 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 17:33:07.028 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 17:33:07.029 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 17:33:07.030 +08:00 [INF] Hosting environment: Development
+2023-08-20 17:33:07.031 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 17:33:08.013 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 17:33:08.134 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 122.4231ms
+2023-08-20 17:33:08.146 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 17:33:08.150 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 4.4537ms
+2023-08-20 17:33:08.161 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 17:33:08.197 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.4782ms
+2023-08-20 17:33:08.349 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 17:33:08.354 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 17:33:08.497 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.2082ms
+2023-08-20 17:33:19.538 +08:00 [INF] Registered 1 endpoints in 47 milliseconds.
+2023-08-20 17:33:19.620 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 17:33:19.622 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 17:33:19.624 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 17:33:19.625 +08:00 [INF] Hosting environment: Development
+2023-08-20 17:33:19.626 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 17:33:20.713 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 17:33:20.861 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 149.1696ms
+2023-08-20 17:33:20.869 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 17:33:20.870 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 17:33:20.878 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 8.1779ms
+2023-08-20 17:33:20.904 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.8129ms
+2023-08-20 17:33:20.947 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 17:33:20.952 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 17:33:21.123 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 176.3825ms
+2023-08-20 17:33:28.676 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 17:33:28.722 +08:00 [INF] Executing endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:33:28.806 +08:00 [INF] Executed endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:33:28.808 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19 - 204 - - 132.2853ms
+2023-08-20 17:33:56.653 +08:00 [INF] Registered 1 endpoints in 230 milliseconds.
+2023-08-20 17:33:56.729 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 17:33:56.731 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 17:33:56.732 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 17:33:56.733 +08:00 [INF] Hosting environment: Development
+2023-08-20 17:33:56.734 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 17:33:57.059 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 17:33:57.173 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 114.4288ms
+2023-08-20 17:33:57.181 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 17:33:57.181 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 17:33:57.193 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 11.9994ms
+2023-08-20 17:33:57.214 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.0568ms
+2023-08-20 17:33:57.250 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 17:33:57.255 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 17:33:57.416 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.8252ms
+2023-08-20 17:34:02.573 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 17:34:02.616 +08:00 [INF] Executing endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:34:02.706 +08:00 [INF] Executed endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:34:02.709 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19 - 204 - - 136.3113ms
+2023-08-20 17:43:28.175 +08:00 [INF] Registered 1 endpoints in 60 milliseconds.
+2023-08-20 17:43:28.256 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 17:43:28.258 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 17:43:28.259 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 17:43:28.259 +08:00 [INF] Hosting environment: Development
+2023-08-20 17:43:28.260 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 17:43:28.870 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 17:43:28.989 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 119.6951ms
+2023-08-20 17:43:28.997 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 17:43:28.997 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 17:43:29.000 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 3.7282ms
+2023-08-20 17:43:29.021 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.6510ms
+2023-08-20 17:43:29.061 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 17:43:29.069 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 17:43:29.220 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 159.0846ms
+2023-08-20 17:43:35.597 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19
+2023-08-20 17:43:35.642 +08:00 [INF] Executing endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:43:38.895 +08:00 [INF] Executed endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 17:43:38.897 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19 - 200 - application/json 3299.6613ms
