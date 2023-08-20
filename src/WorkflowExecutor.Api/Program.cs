@@ -1,7 +1,6 @@
 using FastEndpoints;
 using Serilog;
 using System.Reflection;
-using WorkflowExecutor.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
