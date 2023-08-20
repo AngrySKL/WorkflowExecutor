@@ -25,7 +25,7 @@ public class Start : Endpoint<StartWorkflowRequest, StartWorkflowResponse>
     public override async Task HandleAsync(StartWorkflowRequest request, CancellationToken cancellationToken = default)
     {
         var command = new StartWorkflowCommand(request);
-        var response = await _mediator.Send(command, cancellationToken);
-        await SendAsync(response.Data);
+        var result = await _mediator.Send(command, cancellationToken);
+        await SendAsync(result.Value, cancellation: cancellationToken);
     }
 }

@@ -412,3 +412,22 @@ System.InvalidOperationException: No service for type 'MediatR.IRequestHandler`2
 2023-08-20 17:43:35.642 +08:00 [INF] Executing endpoint 'HTTP: POST Workflow/Start'
 2023-08-20 17:43:38.895 +08:00 [INF] Executed endpoint 'HTTP: POST Workflow/Start'
 2023-08-20 17:43:38.897 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 19 - 200 - application/json 3299.6613ms
+2023-08-20 21:23:59.661 +08:00 [INF] Registered 1 endpoints in 84 milliseconds.
+2023-08-20 21:23:59.762 +08:00 [INF] Now listening on: https://localhost:7278
+2023-08-20 21:23:59.764 +08:00 [INF] Now listening on: http://localhost:5066
+2023-08-20 21:23:59.765 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-20 21:23:59.766 +08:00 [INF] Hosting environment: Development
+2023-08-20 21:23:59.767 +08:00 [INF] Content root path: D:\git\WorkflowExecutor\src\WorkflowExecutor.Api
+2023-08-20 21:24:00.364 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - -
+2023-08-20 21:24:00.518 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - - - 200 - text/html;charset=utf-8 155.1976ms
+2023-08-20 21:24:00.528 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - -
+2023-08-20 21:24:00.532 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 4.1638ms
+2023-08-20 21:24:00.544 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - -
+2023-08-20 21:24:00.580 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.8632ms
+2023-08-20 21:24:00.736 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - -
+2023-08-20 21:24:00.741 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-20 21:24:00.885 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.4435ms
+2023-08-20 21:24:07.236 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7278/Workflow/Start application/json 22
+2023-08-20 21:24:07.282 +08:00 [INF] Executing endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 21:24:15.565 +08:00 [INF] Executed endpoint 'HTTP: POST Workflow/Start'
+2023-08-20 21:24:15.570 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7278/Workflow/Start application/json 22 - 200 - application/json 8334.2480ms
