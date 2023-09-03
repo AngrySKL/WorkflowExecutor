@@ -1,17 +1,28 @@
 using FastEndpoints;
+using FastEndpoints.ApiExplorer;
+using FastEndpoints.Swagger.Swashbuckle;
+using Microsoft.OpenApi.Models;
 using Serilog;
 using System.Reflection;
+using WorkflowExecutor.SampleProject;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Host.UseSerilog((_, config) => config.ReadFrom.Configuration(builder.Configuration));
 
 builder.Services.AddFastEndpoints();
+builder.Services.AddFastEndpointsApiExplorer();
+
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assembly.Load("WorkflowExecutor.Core")));
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+    c.EnableAnnotations();
+    c.OperationFilter<FastEndpointsOperationFilter>();
+});
+
+builder.Services.AddSampleProjectSteps();
 
 var app = builder.Build();
 

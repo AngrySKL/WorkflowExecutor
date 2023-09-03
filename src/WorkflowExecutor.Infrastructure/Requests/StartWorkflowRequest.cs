@@ -1,7 +1,6 @@
-namespace WorkflowExecutor.Infrastructure.Requests
+namespace WorkflowExecutor.Infrastructure.Requests;
+
+public record StartWorkflowRequest(string Name)
 {
-    public record StartWorkflowRequest(string Name)
-    {
-        public const string Route = "Workflow/Start";
-    }
+    public const string Route = "/Workflow/Start";
 }

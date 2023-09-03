@@ -1,14 +1,5 @@
 using WorkflowExecutor.Infrastructure.Records;
 
-namespace WorkflowExecutor.Infrastructure.Responses
-{
-    public class StartWorkflowResponse
-    {
-        public StartWorkflowResponse(WorkflowRecord workflow)
-        {
-            Workflow = workflow;
-        }
+namespace WorkflowExecutor.Infrastructure.Responses;
 
-        public WorkflowRecord Workflow { get; set; }
-    }
-}
+public record StartWorkflowResponse(WorkflowRecord Workflow);

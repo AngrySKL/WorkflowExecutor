@@ -5,19 +5,15 @@ VisualStudioVersion = 17.4.33829.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2DCD3FDE-7D7F-455E-A7B5-BA2578D8DCE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowExecutor.Api", "src\WorkflowExecutor.Api\WorkflowExecutor.Api.csproj", "{49B4E5DA-5E17-4D7F-BE90-85C1AB88D3B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkflowExecutor.Api", "src\WorkflowExecutor.Api\WorkflowExecutor.Api.csproj", "{49B4E5DA-5E17-4D7F-BE90-85C1AB88D3B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowExecutor.Core", "src\WorkflowExecutor.Core\WorkflowExecutor.Core.csproj", "{ED75951C-17C0-4AF3-B0E3-2A7A414D5E9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkflowExecutor.Core", "src\WorkflowExecutor.Core\WorkflowExecutor.Core.csproj", "{ED75951C-17C0-4AF3-B0E3-2A7A414D5E9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowExecutor.Infrastructure", "src\WorkflowExecutor.Infrastructure\WorkflowExecutor.Infrastructure.csproj", "{7DE3B668-F9A1-497A-8F79-B246949597DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkflowExecutor.Infrastructure", "src\WorkflowExecutor.Infrastructure\WorkflowExecutor.Infrastructure.csproj", "{7DE3B668-F9A1-497A-8F79-B246949597DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowExecutor.SampleProject", "src\WorkflowExecutor.SampleProject\WorkflowExecutor.SampleProject.csproj", "{48A5F1BD-D6EC-4EBB-8DEE-07754A2CC5B0}"
 EndProject
 Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7F333DCF-9E09-4AD9-B67D-C511EBDD781D}
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -63,10 +59,29 @@ Global
 		{7DE3B668-F9A1-497A-8F79-B246949597DC}.Release|x64.Build.0 = Release|Any CPU
 		{7DE3B668-F9A1-497A-8F79-B246949597DC}.Release|x86.ActiveCfg = Release|Any CPU
 		{7DE3B668-F9A1-497A-8F79-B246949597DC}.Release|x86.Build.0 = Release|Any CPU
+		{48A5F1BD-D6EC-4EBB-8DEE-07754A2CC5B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A5F1BD-D6EC-4EBB-8DEE-07754A2CC5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A5F1BD-D6EC-4EBB-8DEE-07754A2CC5B0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{48A5F1BD-D6EC-4EBB-8DEE-07754A2CC5B0}.Debug|x64.Build.0 = Debug|Any CPU
+		{48A5F1BD-D6EC-4EBB-8DEE-07754A2CC5B0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{48A5F1BD-D6EC-4EBB-8DEE-07754A2CC5B0}.Debug|x86.Build.0 = Debug|Any CPU
+		{48A5F1BD-D6EC-4EBB-8DEE-07754A2CC5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A5F1BD-D6EC-4EBB-8DEE-07754A2CC5B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A5F1BD-D6EC-4EBB-8DEE-07754A2CC5B0}.Release|x64.ActiveCfg = Release|Any CPU
+		{48A5F1BD-D6EC-4EBB-8DEE-07754A2CC5B0}.Release|x64.Build.0 = Release|Any CPU
+		{48A5F1BD-D6EC-4EBB-8DEE-07754A2CC5B0}.Release|x86.ActiveCfg = Release|Any CPU
+		{48A5F1BD-D6EC-4EBB-8DEE-07754A2CC5B0}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{49B4E5DA-5E17-4D7F-BE90-85C1AB88D3B4} = {2DCD3FDE-7D7F-455E-A7B5-BA2578D8DCE7}
 		{ED75951C-17C0-4AF3-B0E3-2A7A414D5E9B} = {2DCD3FDE-7D7F-455E-A7B5-BA2578D8DCE7}
 		{7DE3B668-F9A1-497A-8F79-B246949597DC} = {2DCD3FDE-7D7F-455E-A7B5-BA2578D8DCE7}
+		{48A5F1BD-D6EC-4EBB-8DEE-07754A2CC5B0} = {2DCD3FDE-7D7F-455E-A7B5-BA2578D8DCE7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F333DCF-9E09-4AD9-B67D-C511EBDD781D}
 	EndGlobalSection
 EndGlobal
