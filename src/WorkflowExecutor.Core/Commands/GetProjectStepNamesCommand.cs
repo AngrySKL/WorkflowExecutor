@@ -5,7 +5,6 @@ using WorkflowExecutor.Core.Common;
 using WorkflowExecutor.Infrastructure.Records;
 using WorkflowExecutor.Infrastructure.Requests;
 using WorkflowExecutor.Infrastructure.Responses;
-using System.Linq;
 
 namespace WorkflowExecutor.Core.Commands;
 
@@ -25,7 +24,7 @@ public class GetProjectStepNamesCommandHandler : IHandlerWrapper<GetProjectStepN
         var registeredSteps = _serviceProvider.GetServices<StepBody>();
         var stepNames = registeredSteps.Select(s =>
         {
-            var name = s.ToString();
+            var name = s.ToString()!;
             return name[name.LastIndexOf('.')..];
         });
         var response = new ProjectStepNamesResponse(new ProjectStepNamesRecord(command.Request.ProjectName, stepNames.ToArray()));
