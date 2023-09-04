@@ -25,7 +25,7 @@ public class GetProjectStepNamesCommandHandler : IHandlerWrapper<GetProjectStepN
         var stepNames = registeredSteps.Select(s =>
         {
             var name = s.ToString()!;
-            return name[name.LastIndexOf('.')..];
+            return name[(name.LastIndexOf('.') + 1)..];
         });
         var response = new ProjectStepNamesResponse(new ProjectStepNamesRecord(command.Request.ProjectName, stepNames.ToArray()));
         return Task.FromResult(Result.Success(response));
