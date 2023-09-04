@@ -16,6 +16,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+    <PackageReference Include="WorkflowCore" Version="3.9.0" />
+    <PackageReference Include="WorkflowCore.DSL" Version="3.9.0" />
   </ItemGroup>
 
   <ItemGroup>

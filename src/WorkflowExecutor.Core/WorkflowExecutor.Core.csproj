@@ -10,6 +10,7 @@
     <PackageReference Include="Ardalis.Result" Version="7.1.0" />
     <PackageReference Include="MediatR" Version="12.1.1" />
     <PackageReference Include="WorkflowCore" Version="3.9.0" />
+    <PackageReference Include="WorkflowCore.DSL" Version="3.9.0" />
   </ItemGroup>
 
   <ItemGroup>

@@ -24,6 +24,9 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddSampleProjectSteps();
 
+builder.Services.AddWorkflow();
+builder.Services.AddWorkflowDSL();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("SamplePolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
