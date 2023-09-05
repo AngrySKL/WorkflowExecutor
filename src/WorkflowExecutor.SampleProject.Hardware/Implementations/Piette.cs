@@ -6,15 +6,15 @@ public class Piette : IPiette
 {
     public void Spit()
     {
-        Console.WriteLine("**** 开始吐液 ****");
+        Serilog.Log.Logger.Information("**** 开始吐液 ****");
         Thread.Sleep(1000);
-        Console.WriteLine("**** 吐液完成 ****");
+        Serilog.Log.Logger.Information("**** 吐液完成 ****");
     }
 
     public void Suck()
     {
-        Console.WriteLine("**** 开始吸液 ****");
+        Serilog.Log.Logger.Information("**** 开始吸液 ****");
         Thread.Sleep(1000);
-        Console.WriteLine("**** 吸液完成 ****");
+        Serilog.Log.Logger.Information("**** 吸液完成 ****");
     }
 }

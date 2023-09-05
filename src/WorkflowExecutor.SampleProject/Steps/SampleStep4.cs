@@ -7,7 +7,7 @@ public class SampleStep4 : StepBody
 {
     public override ExecutionResult Run(IStepExecutionContext context)
     {
-        Console.WriteLine($"==== Executing {nameof(SampleStep4)} ====");
+        Serilog.Log.Logger.Information($"==== Executing {nameof(SampleStep4)} ====");
 
         return ExecutionResult.Next();
     }

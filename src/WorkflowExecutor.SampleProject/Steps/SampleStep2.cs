@@ -15,7 +15,7 @@ public class SampleStep2 : StepBody
 
     public override ExecutionResult Run(IStepExecutionContext context)
     {
-        Console.WriteLine($"==== Executing {nameof(SampleStep2)} ====");
+        Serilog.Log.Logger.Information($"==== Executing {nameof(SampleStep2)} ====");
 
         _piette.Suck();
         _piette.Spit();
