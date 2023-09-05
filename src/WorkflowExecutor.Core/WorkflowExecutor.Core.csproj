@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WorkflowExecutor.Infrastructure\WorkflowExecutor.Infrastructure.csproj" />
+    <ProjectReference Include="..\WorkflowExecutor.SampleProject\WorkflowExecutor.SampleProject.csproj" />
   </ItemGroup>
 
 </Project>

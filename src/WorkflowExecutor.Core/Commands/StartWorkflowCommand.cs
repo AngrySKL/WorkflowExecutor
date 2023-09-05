@@ -18,22 +18,22 @@ public class StartWorkflowCommandHandler : IHandlerWrapper<StartWorkflowCommand,
     public StartWorkflowCommandHandler(IWorkflowHost workflowHost, IDefinitionLoader workflowDefinitionLoader)
     {
         _workflowHost = workflowHost;
+        _workflowHost.Start();
         _workflowDefinitionLoader = workflowDefinitionLoader;
     }
 
     public Task<Result<StartWorkflowResponse>> Handle(StartWorkflowCommand command, CancellationToken cancellationToken)
     {
         var def = _workflowDefinitionLoader.LoadDefinition(GetTestDefinitionJson(command.Request.Name), Deserializers.Json);
-        _workflowHost.Start();
-        var workflowId = _workflowHost.StartWorkflow(def.Id).Result;
 
+        var workflowId = _workflowHost.StartWorkflow(def.Id).Result;
         var response = new StartWorkflowResponse(new WorkflowRecord(1, workflowId));
         return Task.FromResult(Result.Success(response));
     }
 
     private string GetTestDefinitionJson(string projectName)
     {
-        return File.ReadAllText(@$"D:\test-workflows\{projectName}-workflow.json");
+        return File.ReadAllText(@$"D:\downloads\{projectName}-workflow.json");
     }
 }
 

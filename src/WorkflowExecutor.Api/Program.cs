@@ -5,6 +5,7 @@ using Microsoft.OpenApi.Models;
 using Serilog;
 using System.Reflection;
 using WorkflowExecutor.SampleProject;
+using WorkflowExecutor.SampleProject.Hardware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,10 +23,11 @@ builder.Services.AddSwaggerGen(c =>
     c.OperationFilter<FastEndpointsOperationFilter>();
 });
 
-builder.Services.AddSampleProjectSteps();
-
 builder.Services.AddWorkflow();
 builder.Services.AddWorkflowDSL();
+
+builder.Services.AddSampleProjectSteps();
+builder.Services.AddSampleProjectHardwares();
 
 builder.Services.AddCors(options =>
 {

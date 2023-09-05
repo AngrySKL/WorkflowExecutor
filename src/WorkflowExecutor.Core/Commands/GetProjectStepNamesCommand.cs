@@ -1,5 +1,6 @@
 ﻿using Ardalis.Result;
 using Microsoft.Extensions.DependencyInjection;
+using WorkflowCore.Interface;
 using WorkflowCore.Models;
 using WorkflowExecutor.Core.Common;
 using WorkflowExecutor.Infrastructure.Records;
@@ -21,7 +22,7 @@ public class GetProjectStepNamesCommandHandler : IHandlerWrapper<GetProjectStepN
 
     public Task<Result<ProjectStepNamesResponse>> Handle(GetProjectStepNamesCommand command, CancellationToken cancellationToken)
     {
-        var registeredSteps = _serviceProvider.GetServices<StepBody>();
+        var registeredSteps = _serviceProvider.GetServices<IStepBody>();
         var stepNames = registeredSteps.Select(s =>
         {
             var name = s.ToString()!;
