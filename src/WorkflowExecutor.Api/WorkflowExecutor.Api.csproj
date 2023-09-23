@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Ardalis.Result" Version="7.1.0" />
-    <PackageReference Include="FastEndpoints" Version="5.15.0" />
+    <PackageReference Include="FastEndpoints" Version="5.17.1.1" />
     <PackageReference Include="FastEndpoints.ApiExplorer" Version="2.2.0" />
     <PackageReference Include="FastEndpoints.Swagger.Swashbuckle" Version="2.2.0" />
     <PackageReference Include="MediatR" Version="12.1.1" />
