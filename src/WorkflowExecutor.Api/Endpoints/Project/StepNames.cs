@@ -18,7 +18,7 @@ public class StepNames : Endpoint<ProjectStepNamesRequest, ProjectStepNamesRespo
     public override void Configure()
     {
         Get(ProjectStepNamesRequest.Route);
-        AllowAnonymous();
+        Roles("Admin");
         Options(x => x.WithTags("ProjectEndpoints"));
     }
 
